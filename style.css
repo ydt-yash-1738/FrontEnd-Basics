@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&display=swap');
+body{
+    background-color: rgb(16, 16, 18);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu',sans-serif;
+}
+
+nav ul{
+    display: flex ;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: rgb(10, 0, 0);
+    color: rgb(250, 247, 247);
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 65vh;
+    background-color: black;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 15px;
+    padding: 20px;
+    background-image: url('background4.jpg');
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: rgb(247, 241, 241);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#myProgressbar{
+    width: 72vw;
+    cursor: pointer;
+}
+
+.songitemcontainer{
+    margin-top: 54px;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    align-items:center;
+    margin: 12px 0;
+    justify-content: space-between;
+    border-radius: 34px;
+}
+
+.songItem img{
+    width: 25px;
+    border-radius: 20px;
+    margin: 12px 0;
+    margin-left: 12px;
+    cursor: pointer;
+    align-items: center;
+    opacity: 1;
+}
+
+.title{
+    cursor: pointer;
+}
+
+.sonlistplay{
+    width: 10px;
+}
+.timespan{
+    
+    margin: 0 42px;
+    position: relative;
+    right: 2pc;
+}
+
+.songinfo{
+    color: white;
+    position: absolute;
+    left: 10px;
+    justify-content: space-between;
+    bottom: px;
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+    
+}
+
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: rgb(10, 0, 0);
+    }
+  }
+
+
+
