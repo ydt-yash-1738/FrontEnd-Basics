@@ -1,0 +1,27 @@
+<div class="container2">
+        <div class="row">
+            <button class="button1">sin</button>
+            <button class="button1">rad</button> 
+            <button class="button1">deg</button>
+        </div>
+        <div class="row">
+            <button class="button1">cos</button>
+            <button class="button1">tan</button> 
+            <button class="button1">inv</button>
+        </div>
+        <div class="row">
+            <button class="button1">log</button>
+            <button class="button1">ln</button> 
+            <button class="button1">!</button>
+        </div>
+        <div class="row">
+            <button class="button1">𝝅</button>
+            <button class="button1">e</button> 
+            <button class="button1">^</button>
+        </div>
+        <div class="row">
+            <button class="button1">√</button>
+            <button class="button1">(</button> 
+            <button class="button1">)</button>
+        </div>
+    </div>
